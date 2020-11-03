@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+
+}
+
+/* body {
+    position: fixed; /* or absolute */
+    /* top: 50%;
+    left: 50%; 
+} */
+
+.btn {
+    color: blue;
+    padding: 1px;
+}
+
+header {
+    font-size: 60px;
+    top: 0px;
+    position: fixed; 
+    top: 30%;
+    left: 45%; 
+}
+
+h2, btn {
+    position: fixed; 
+    top: 50%;
+    left: 52%; 
+}
