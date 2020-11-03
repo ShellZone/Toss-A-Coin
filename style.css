@@ -6,13 +6,7 @@
 
 }
 
-/* body {
-    position: fixed; /* or absolute */
-    /* top: 50%;
-    left: 50%; 
-} */
-
-.btn {
+.btn .btn-2 {
     color: blue;
     padding: 1px;
 }
@@ -25,8 +19,27 @@ header {
     left: 45%; 
 }
 
-h2, btn {
+h2{
     position: fixed; 
     top: 50%;
     left: 52%; 
+}
+
+.btn {
+    position: fixed; 
+    top: 45%;
+    left: 52%; 
+    color: blue;
+}
+
+.btn-2 {
+    position: fixed; 
+    top: 45%;
+    left: 50%; 
+    color: blue;
+}
+
+.result {
+    position: fixed;
+    left: 50%;
 }
