@@ -10,6 +10,9 @@
 body {
     height: 100vh;
     background-image: linear-gradient(120deg, #f6d365, #fda035);
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
 
@@ -33,7 +36,7 @@ h2{
     left: 52%; 
 }
 
-.btn {
+.btn, .btn-2 {
     position: fixed; 
     top: 45%;
     left: 52%; 
