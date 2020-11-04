@@ -38,22 +38,32 @@ h2{
 
 .btn, .btn-2 {
     position: fixed; 
-    top: 45%;
+    top: 70%;
     left: 52%; 
     color: blue;
-
+    font-size: 25px;
+    background-color: transparent;
+    padding:  0.2rem;
+    cursor: pointer;
 }
 
 .btn-2 {
     position: fixed; 
-    top: 45%;
+    top: 70%;
     left: 50%; 
     color: blue;
 
+
 }
 
+button:hover {
+    background: tomato;
+    color: blue;
+    transition: all 0.3s ease;
+}
 .result {
     position: fixed;
     left: 50%;
+    color: blue;
 }
 
