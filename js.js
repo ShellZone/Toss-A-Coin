@@ -1,20 +1,23 @@
 // Selectors
-const result = document.getElementsByClassName("result");
-const toss = document.getElementsByClassName("btn");
-const redo = document.getElementsByClassName("btn-2");
+const result = document.querySelector(".result");
+const toss = document.querySelector(".btn");
+const redo = document.querySelector(".btn-2");
+
 
 //Event Listeners
-toss.addEventListener('click', tosscoin);
-redo.addEventListener('click', resetresult);
+toss.addEventListener("click", tosscoin);
+// redo.addEventListener("click", resetresult);
 
 
 //Functions
 
 function tosscoin(){
 
+    console.log("hello");   
 }
 
 
 
 
 // function resetresult
+
