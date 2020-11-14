@@ -12,8 +12,8 @@ toss.addEventListener("click", tosscoin);
 //Functions
 
 function tosscoin(){
-
-    console.log("hello");   
+    
+       
 }
 
 
