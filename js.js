@@ -21,3 +21,4 @@ function tosscoin(){
 
 // function resetresult
 
+//test
