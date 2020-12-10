@@ -16,9 +16,11 @@ toss.addEventListener("click", tosscoin);
 
 function tosscoin(){
     const coinValue = Math.floor(Math.random() * 2 + 1);
-    console.log(coinValue);
-}
-
+    if( coinValue === 1){
+        console.log("Heads");}
+        else{
+            console.log("tails");
+        }
 
 
 
