@@ -16,15 +16,16 @@ toss.addEventListener("click", tosscoin);
 
 function tosscoin(){
     const coinValue = Math.floor(Math.random() * 2 + 1);
-    if( coinValue === 1){
-        console.log("Heads");}
-        else{
-            console.log("tails");
-        }
+    if( coinValue === 1){ 
+        result.innerHTML = "Tails";
+        
 
+    }
+        else{
+            result.innerHTML = "Heads";
+        }
+    }
 
 
 // function resetresult(){
-
-// }
-
+ 
