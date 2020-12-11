@@ -1,7 +1,7 @@
 // First we add selectors to select my 3 buttons and link them to variables
 const result = document.querySelector(".result");
 const toss = document.querySelector(".btn");
-const redo = document.querySelector(".btn-2");
+const redo = document.querySelector(".btn2");
 
 
 //Event Listeners
@@ -11,6 +11,7 @@ toss.addEventListener("click", tosscoin);
 
 // redo.addEventListener("click", resetresult);
 
+redo.addEventListener("click", resetresult);
 
 //Functions
 
@@ -29,3 +30,7 @@ function tosscoin(){
 
 // function resetresult(){
  
+function resetresult(){
+        result.innerHTML = "";
+    }
+

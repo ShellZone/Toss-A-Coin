@@ -17,7 +17,7 @@ body {
 }
 
 
-.btn .btn-2 {
+.btn .btn2 {
     color: blue;
     padding: 1px;
 }
@@ -36,7 +36,7 @@ h2{
     left: 52%; 
 }
 
-.btn, .btn-2 {
+.btn, .btn2 {
     position: fixed; 
     top: 70%;
     left: 52%; 
@@ -47,7 +47,7 @@ h2{
     cursor: pointer;
 }
 
-.btn-2 {
+.btn2 {
     position: fixed; 
     top: 70%;
     left: 50%; 
